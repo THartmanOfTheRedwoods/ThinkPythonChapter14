@@ -94,8 +94,8 @@ def main():
     print(get_days_since_year_start(make_date(2024, 6, 22)))  # Leap year
     print(get_days_since_year_start(make_date(1933, 6, 22)))  # Not a leap year
     print("-"*120)
-    print(date_to_int(make_date(2024, 11,15)))  # 20041 as of 11/15/2024
-    print(date_to_int(make_date(2024, 10,15)))  # 20041 as of 11/15/2024
+    print(date_to_int(make_date(2024, 11,15)))  # 20043 as of 11/15/2024
+    print(date_to_int(make_date(2024, 10,15)))  # 20012 as of 10/15/2024
     print("-"*120)
     print(is_date_after(make_date(2024, 11, 15), make_date(2024, 11, 15)))
     print(is_date_after(make_date(2024, 11, 15), make_date(2024, 10, 15)))
